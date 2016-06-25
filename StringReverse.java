@@ -1,7 +1,6 @@
 import java.util.*;
 class StringReverse{
 	public static void main(String args[]){
-		//DataInputStreamReader g = new DataInputStreamReader(System.in);
 		Scanner s = new Scanner(System.in);
 		String s1,s2;
 		System.out.println("Enter The String");
