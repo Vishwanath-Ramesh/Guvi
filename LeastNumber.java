@@ -31,7 +31,7 @@ public class LeastNumber
 		int d = s.nextInt();
 		System.out.printf("\nThe Remaining numbers are:");
 		for(int x = 0;x<n-d;x++){
-			System.out.print(a[x]);
+			System.out.print(a[x]+" ");
 		}
     }
 }
