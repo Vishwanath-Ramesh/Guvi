@@ -22,11 +22,6 @@ public class LeastNumber
 				}
 			}
 		}
-        System.out.printf("The numbers in Ascending Order are:");
-        for (int i = 0; i < n ; i++) 
-        {
-            System.out.print(a[i]);
-        }
 		System.out.printf("\nEnter the number of digits to delete:");
 		int d = s.nextInt();
 		System.out.printf("\nThe Remaining numbers are:");
