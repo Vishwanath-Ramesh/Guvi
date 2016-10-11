@@ -4,9 +4,9 @@ class Holiday{
 		Scanner scanner = new Scanner(System.in);
 		String string = new String(scanner.nextLine());
 		if(string.toLowerCase().equals("sunday"))
-			System.out.println("Holiday");
+			System.out.println("true");
 		else
-			System.out.println("Not a Holiday");
+			System.out.println("false");
 	}
 }
 	
