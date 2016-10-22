@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author vishwanath
- */
 import java.util.*;
 class LectureNotes
 {
@@ -16,7 +6,6 @@ class LectureNotes
 		Scanner scanner = new Scanner(System.in);
 		int totalstrength = scanner.nextInt();
 		int totalfriends = scanner.nextInt();
-		//int j=0;
 		String wakedfriends = scanner.next();
 		char[] wakedfriends_char = wakedfriends.toCharArray();
 		int friends[] = new int[totalstrength];
